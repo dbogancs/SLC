@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ShoppingListCreator.exe" version="1.0.0.1" publicKeyToken="7b5601b621518589" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="INV_Misc_Note_05.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ShoppingListCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ShoppingListCreator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ShoppingListCreator.exe" size="76272">
+      <assemblyIdentity name="ShoppingListCreator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PL0QnglMi5bNziZlA2DuFzS+g9OpvR+2B39csTqSjEE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="INV_Misc_Note_05.ico" size="12014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oInvi97O0/hSWIb/OXdGLP0T1JxiCXbyMMpQDZqw3m0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ShoppingListCreator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-G3P8HQI\Danasyo" issuerKeyHash="d96298d26c90123b4b8b1f1ceba33c84477a1485" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zuRJkgBwr6IkE23gCifBViL7V6be0gr2e/P8jCliWUY=</DigestValue></Reference></SignedInfo><SignatureValue>hD0kLLnwxXR7jicyXpWaQS6zbGU418tx21xcetR0hbsSaRrigePRQ1bAtDmzrGtR3xsNVvqlhxuIpn1iOFpPhkurwI9+vPtXec6Lv0o5BnJzLA+PVls/vFXvV0nnGdxDiSnbJQXDuu9XzXaGHSDeLnuP/35RKeIkqnci7FRCAYo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sBSK6j+rwZf9ecbuTEuLH0dVz0Ac+bF7lAK4sCZe3sNS1DTF37ukZ4KTnIU9eyNlapBozT5xWp+4nVcUIEQoXl5eIafWkggENPiB0CZxT3PkQk9LlZM0674mOND27gkL4rEa+TGvBpKpR25X1pna7UxVcq4T/WoNez5NdBcdrjM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="465962298cfcf37bf60ad2dea657fb2256c1270ae06d1324a2af70009249e4ce" Description="" Url=""><as:assemblyIdentity name="ShoppingListCreator.exe" version="1.0.0.1" publicKeyToken="7b5601b621518589" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-G3P8HQI\Danasyo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>od352gjNAMvaoSKohWgI/Hd2o+Fxm3Z0xqZk8Wx55to=</DigestValue></Reference></SignedInfo><SignatureValue>Y8ynQ+2Mbi23LgF3Bh9JehZOiTZv/aTSwGU48ZGTD1vRvhEYkQWhW5rmB8R4G0UVSc0IaVmJQ+g0nc6CpzXHMaim09qr1O50siH5DMkJ7Mm/TIFTUkufrGm8YCU/2cBQle+XEH+bTlO3gGF9IrBFECJipygVDbpbSHp/GbSrJEU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sBSK6j+rwZf9ecbuTEuLH0dVz0Ac+bF7lAK4sCZe3sNS1DTF37ukZ4KTnIU9eyNlapBozT5xWp+4nVcUIEQoXl5eIafWkggENPiB0CZxT3PkQk9LlZM0674mOND27gkL4rEa+TGvBpKpR25X1pna7UxVcq4T/WoNez5NdBcdrjM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQO3XKYDNvt7dBmDs7s34XKjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAEcAMwBQADgASABRAEkAXABEAGEAbgBhAHMAeQBvMB4XDTE3MDcwODAxMjcxMFoXDTE4MDcwODA3MjcxMFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBHADMAUAA4AEgAUQBJAFwARABhAG4AYQBzAHkAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsBSK6j+rwZf9ecbuTEuLH0dVz0Ac+bF7lAK4sCZe3sNS1DTF37ukZ4KTnIU9eyNlapBozT5xWp+4nVcUIEQoXl5eIafWkggENPiB0CZxT3PkQk9LlZM0674mOND27gkL4rEa+TGvBpKpR25X1pna7UxVcq4T/WoNez5NdBcdrjMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCGgqWzHVpI1k0g5b2UTKKkzvBex/oZ/borCEFEc86K02eaVCb8S+llGiYR2XRijtJJcTR4cEnNT3jUg3LfcEg258tFH7nIEovD7/EoGq0yIZ1Ru9P5d2jC7HYbeE29jSv558YFkbSx3qQZMxLCKSESL8Mu4l9dkeuFTc1ch3EkLw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,16 @@
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\bin\Debug\ShoppingListCreator.exe.config
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\bin\Debug\ShoppingListCreator.exe
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\bin\Debug\ShoppingListCreator.pdb
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.csprojResolveAssemblyReference.cache
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.ShoppingListCreator.resources
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.Properties.Resources.resources
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.csproj.GenerateResource.Cache
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.exe
+c:\users\danasyo\documents\visual studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.pdb
+C:\Users\Danasyo\Documents\Visual Studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\bin\Debug\ShoppingListCreator.exe.manifest
+C:\Users\Danasyo\Documents\Visual Studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\bin\Debug\ShoppingListCreator.application
+C:\Users\Danasyo\Documents\Visual Studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.exe.manifest
+C:\Users\Danasyo\Documents\Visual Studio 2015\Projects\ShoppingListCreator\ShoppingListCreator\obj\Debug\ShoppingListCreator.application
+C:\Users\Danasyo\Source\Repos\SLC\ShoppingListCreator\bin\Debug\ShoppingListCreator.exe.config
+C:\Users\Danasyo\Source\Repos\SLC\ShoppingListCreator\obj\Debug\ShoppingListCreator.exe
+C:\Users\Danasyo\Source\Repos\SLC\ShoppingListCreator\obj\Debug\ShoppingListCreator.pdb
