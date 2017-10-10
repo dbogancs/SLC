@@ -518,16 +518,16 @@ namespace ShoppingListCreator
             for (int i = 0; i < selectedList.Count; i++)
             {
                 String selectedName = selectedListDataGridView.Rows[i].Cells[0].Value.ToString() + "  ";
-                String selectedUnitPrice = selectedListDataGridView.Rows[i].Cells[1].Value.ToString() + " Ft";
+                String selectedUnitPrice = separator + selectedListDataGridView.Rows[i].Cells[1].Value.ToString() + " Ft";
                 String count = selectedListDataGridView.Rows[i].Cells[2].Value.ToString() + " x";
                 String price = selectedListDataGridView.Rows[i].Cells[3].Value.ToString() + " Ft";
                 
                 while (count.Length < 5) count = " " + count;
                 while (selectedName.Length < 15) selectedName += ".";
-                while (selectedUnitPrice.Length < 8) selectedUnitPrice = " " + selectedUnitPrice;
+                while (selectedUnitPrice.Length < 8) selectedUnitPrice = "." + selectedUnitPrice;
                 while (price.Length < 8) price = " " + price;
 
-                stringToPrint += count + separator + selectedName + separator + selectedUnitPrice + separator + price + "\r\n";
+                stringToPrint += count + separator + selectedName + selectedUnitPrice + separator + price + "\r\n";
             }
 
             stringToPrint += "_____" + sepLine + "_______________" + sepLine + "________" + sepLine + "________\r\n";
