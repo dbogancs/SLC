@@ -149,7 +149,7 @@ namespace ShoppingListCreator.SLC
 
             bool acceptable = true;
 
-            if (ExistingProduct(name, unitPrice))
+            if (ExistingProduct(name, unitPrice) && (!p.name.Equals(name) && p.unitPrice != unitPrice))
             {
                 SayAWarning("Termékadatok ütköznek!", "Ilyen egységáru és nevű termék már létezik. Adj meg más adatokat, vagy használd a már meglévő terméket!");
                 acceptable = false;

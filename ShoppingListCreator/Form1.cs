@@ -130,6 +130,11 @@ namespace ShoppingListCreator
             }
         }
 
+        private static void SayAWarning(String title, String question)
+        {
+            DialogResult dialogResult = MessageBox.Show(question, title, MessageBoxButtons.OK);
+        }
+
         private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -292,7 +297,7 @@ namespace ShoppingListCreator
                 editProductNameTextBox.Text = "";
                 editProductUnitPriceTextBox.Text = "";
                 editProductPanel.Enabled = false;
-                editProductTabControl.SelectedIndex = 0;
+                //editProductTabControl.SelectedIndex = 0;
                 selectedProductNameLabel.Text = "(nincs kiválasztva)";
                 
                 //????????????????????
@@ -512,7 +517,7 @@ namespace ShoppingListCreator
 
             for (int i = 0; i < selectedList.Count; i++)
             {
-                String selectedName = selectedListDataGridView.Rows[i].Cells[0].Value.ToString();
+                String selectedName = selectedListDataGridView.Rows[i].Cells[0].Value.ToString() + "  ";
                 String selectedUnitPrice = selectedListDataGridView.Rows[i].Cells[1].Value.ToString() + " Ft";
                 String count = selectedListDataGridView.Rows[i].Cells[2].Value.ToString() + " x";
                 String price = selectedListDataGridView.Rows[i].Cells[3].Value.ToString() + " Ft";
@@ -557,7 +562,8 @@ namespace ShoppingListCreator
 
             // Check to see if more pages are to be printed.
             e.HasMorePages = (stringToPrint.Length > 0);
-        }
+
+    }
 
         private void selectedListDataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
@@ -581,6 +587,7 @@ namespace ShoppingListCreator
             WriteDocument();
 
             System.IO.File.WriteAllText(Path.Combine(strPath, selectedListName + ".txt"), stringToPrint);
+            SayAWarning("Sikeres exportálás!", "Az exportálás befejeződött. A lista jegyzettömb formában megtalálható az asztalon.");
         }
 
         private void newListCreateButton_Click(object sender, EventArgs e)
